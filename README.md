@@ -28,7 +28,7 @@ The signals have all been connected, and much of the code should basically be in
 
 We will talk in detail how to complete this exercise:
 
-In /Ball/Ball.gd, replace lines 48–49 with the following:
+In /Ball/Ball.gd, replace lines 44–45 with the following:
 ```
 	if HUD.ball_trail:
 		var c = $Color.duplicate()
